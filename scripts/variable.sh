@@ -19,3 +19,4 @@ echo "What a wonderful day is the $day"
 
  echo $a $b 
  echo "==> $[$a + $b ]"
+
