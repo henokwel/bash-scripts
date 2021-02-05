@@ -9,3 +9,11 @@ function gretting(){
 echo $(gretting)
 
 
+
+function sayHello(){
+
+    read -p "Whats your name ?" name
+    echo "Hello $name"
+}
+
+echo $(sayHello)
