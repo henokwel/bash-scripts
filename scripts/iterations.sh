@@ -3,12 +3,12 @@
 # While
 count=0
 
-# while [ $count -le 5 ]
-# do 
-# echo "Welcome x $count "
-# count=$(($count + 1))
-# done
-# echo $count
+while [ $count -le 5 ]
+do 
+echo "Welcome x $count "
+count=$(($count + 1))
+done
+echo "While run $count x times"
 
 
 # While with if 
@@ -36,10 +36,10 @@ do
     echo $name
 done 
 
+printf "\n"
 
-echo "____"
 
-numbers=((  one two three ))
+numbers="one two three"
 for number in $numbers
 do
     echo $number
