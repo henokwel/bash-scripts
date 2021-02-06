@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# While
+
+
+
+#For 
+
+
+
