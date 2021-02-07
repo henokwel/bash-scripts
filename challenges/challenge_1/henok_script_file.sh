@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# the making of a script .sh
+# after creating a .sh file 
+# use chmod +x fileName.sh to make it exe.
+
+
+
+
 # Get user name
 read -p "Whats your name ? " user_name
 
