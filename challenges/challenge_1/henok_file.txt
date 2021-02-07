@@ -1,0 +1,26 @@
+# Command for creating a file.
+
+  touch myNameHere.txt
+
+# adding my favorit things in it
+
+   cat <<END>> myNameHere.txt
+     > Scripts
+     > Dog
+     > END   # the stop! command 
+
+# open your file 
+   cat myNameHere.txt
+
+# check for certain item 
+    cat myNameHere.txt | grep item
+
+# change file so it only is accecable to root
+    sudo chown root:root myNameHere.txt
+
+# Adding more favorit things to myNameHere.txt with only root accece
+    cat <<END | sudo tee myNameHere.txt
+        > Forest
+        > Tiger
+        > END
+    
