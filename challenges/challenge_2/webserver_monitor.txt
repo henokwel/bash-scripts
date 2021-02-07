@@ -1,0 +1,14 @@
+
+There are few command that help us monitor our web server-
+
+$ systemctl status nginx.server
+ => this command will show us nginx its active and running.
+
+$ systemctl start nginx.server
+$ systemctl stop nginx.server
+=> this two command stop and start the server.
+
+
+$ systemctl enable nginx.server
+$ systemctl disable nginx.server
+=> this command indicate whether to auto-start or not at boot time.
