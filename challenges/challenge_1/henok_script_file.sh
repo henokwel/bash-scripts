@@ -10,7 +10,7 @@
 # Get user name
 read -p "Whats your name ? " user_name
 
-echo user_name >  $user_name.txt
+touch  $user_name.txt
 
 
 # Get user fav color and animal

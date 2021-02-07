@@ -15,10 +15,10 @@
 # check for certain item 
     cat myNameHere.txt | grep item
 
-# change file so it only is accecable to root
+# change file owner to root
     sudo chown root:root myNameHere.txt
 
-# Adding more favorit things to myNameHere.txt with only root accece
+# Adding more favorit things to myNameHere.txt 
     cat <<END | sudo tee myNameHere.txt
         > Forest
         > Tiger
