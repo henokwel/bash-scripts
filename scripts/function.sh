@@ -24,5 +24,3 @@ last=$1
 
 read -p "Please enter your name ? " name
 echo "Hello $name $last"
-
-
